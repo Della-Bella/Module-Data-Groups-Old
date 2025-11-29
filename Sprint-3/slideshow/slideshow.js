@@ -9,6 +9,9 @@ const carouselImg = document.getElementById("carousel-img");
 const backwardBtn = document.getElementById("backward-btn"); 
 const forwardBtn = document.getElementById("forward-btn"); 
 
+//level 2
+let slideshowInterval; 
+const intervalTime = 2000;
 
 function updateImage() {
     carouselImg.src = images[currentIndex];
